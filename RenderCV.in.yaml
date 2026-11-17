@@ -1,4 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+!Defaults
+lang: en
+language: !If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: italian
+  else: english
+---
 cv:
   name: Davide Bianco
   headline:
@@ -314,52 +324,18 @@ design:
   #       URL (JOURNAL)
   #     date_and_location_column: DATE
 locale:
-  language: english
-  # last_updated: Last updated in
-  # month: month
-  # months: months
-  # year: year
-  # years: years
-  # present: present
-  # phrases:
-  #   degree_with_area: DEGREE in AREA
-  # month_abbreviations:
-  #   - Jan
-  #   - Feb
-  #   - Mar
-  #   - Apr
-  #   - May
-  #   - June
-  #   - July
-  #   - Aug
-  #   - Sept
-  #   - Oct
-  #   - Nov
-  #   - Dec
-  # month_names:
-  #   - January
-  #   - February
-  #   - March
-  #   - April
-  #   - May
-  #   - June
-  #   - July
-  #   - August
-  #   - September
-  #   - October
-  #   - November
-  #   - December
+  language: !Var language
 settings:
   current_date: today
   render_command:
-    output_folder: rendercv_output
+    output_folder: ../rendercv_output
     design:
     locale:
-    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
-    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
-    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    typst_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}.typ"
+    pdf_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}.pdf"
+    markdown_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}.md"
+    html_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}.html"
+    png_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}.png"
     dont_generate_markdown: false
     dont_generate_html: false
     dont_generate_typst: false
