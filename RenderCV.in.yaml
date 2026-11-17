@@ -232,6 +232,8 @@ design:
       headline: true
     bold:
       headline: true
+  templates:
+    footer: '*“while (idea‑>is_not_good()) think(); write_code();” -- PAGE_NUMBER/TOTAL_PAGES*'
 locale:
   language: !Var language
 settings:
