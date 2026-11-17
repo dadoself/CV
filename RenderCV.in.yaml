@@ -30,20 +30,23 @@ headline_2: !If
     b: it
   then: Developer
   else: Engineer
+location: null
+email: null
+phone: null
 ---
 cv:
   name: Davide Bianco
   headline: !Format "{headline_1} {headline_2} · Low-Level and Functional Enthusiast"
-  location: San Francisco, CA
-  email: john.doe@email.com
+  location: !Var location
+  email: !Var email
   photo:
-  phone:
-  website: https://rendercv.com/
+  phone: !Var phone
+  website:
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: davidebianco
     - network: GitHub
-      username: rendercv
+      username: dadoself
   custom_connections:
   sections:
     Welcome to RenderCV:
