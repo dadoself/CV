@@ -1,0 +1,8 @@
+- label: Languages
+  details: Python, C++, CUDA, Rust, Julia
+- label: ML Frameworks
+  details: PyTorch, JAX, TensorFlow, Triton, ONNX
+- label: Infrastructure
+  details: Kubernetes, Ray, distributed training, AWS, GCP
+- label: Research Areas
+  details: Neural architecture search, model compression, efficient inference, multi-agent RL
