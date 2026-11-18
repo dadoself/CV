@@ -1,5 +1,7 @@
-- bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-- bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-- bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-- bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-- bullet: Fulbright Scholarship for Graduate Studies (2018)
+!If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: !Include honors_it.in.yaml
+  else: !Include honors_en.in.yaml
