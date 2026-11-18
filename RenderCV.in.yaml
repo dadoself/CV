@@ -48,12 +48,13 @@ cv:
     - network: GitHub
       username: dadoself
   custom_connections:
-  sections:
-    Welcome to RenderCV: !Include sections/summary.in.yaml
-    education: !Include sections/education.in.yaml
-    skills: !Include sections/skills.in.yaml
-    experience: !Include sections/experience.in.yaml
-    selected_honors: !Include sections/honors.in.yaml
+  sections: !If
+    test: !Op
+      a: !Var lang
+      op: eq
+      b: it
+    then: !Include sections_it.in.yaml
+    else: !Include sections_en.in.yaml
 design:
   theme: classic
   page:

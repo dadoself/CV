@@ -1,0 +1,5 @@
+Welcome to RenderCV: !Include sections/summary.in.yaml
+Education: !Include sections/education.in.yaml
+Skills: !Include sections/skills.in.yaml
+Experience: !Include sections/experience.in.yaml
+Awards: !Include sections/honors.in.yaml
