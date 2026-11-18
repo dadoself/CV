@@ -67,6 +67,8 @@ design:
       headline: true
   templates:
     footer: '*“while (idea‑>is_not_good()) think(); write_code();” -- PAGE_NUMBER/TOTAL_PAGES*'
+    education_entry:
+      degree_column: null
 locale:
   language: !Var language
 settings:

@@ -1,23 +1,7 @@
-- institution: Princeton University
-  area: Computer Science
-  degree: PhD
-  date:
-  start_date: 2018-09
-  end_date: 2023-05
-  location: Princeton, NJ
-  summary:
-  highlights:
-    - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-    - 'Advisor: Prof. Sanjeev Arora'
-    - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-- institution: Boğaziçi University
-  area: Computer Engineering
-  degree: BS
-  date:
-  start_date: 2014-09
-  end_date: 2018-06
-  location: Istanbul, Türkiye
-  summary:
-  highlights:
-    - 'GPA: 3.97/4.00, Valedictorian'
-    - Fulbright Scholarship recipient for Graduate Studies
+!If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: !Include education_it.in.yaml
+  else: !Include education_en.in.yaml
