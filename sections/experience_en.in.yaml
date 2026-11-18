@@ -1,0 +1,77 @@
+- company: Synesthesia S.r.l.
+  position: Senior Software Engineer
+  start_date: 2025-09
+  end_date: 2026-02
+  location: Turin
+  highlights:
+    - Contributed to the development of the Android app for major Olympic events.
+- company: Ermes Cyber Security S.p.A.
+  position: Senior Software Engineer
+  start_date: 2022-12
+  end_date: 2024-06
+  location: Turin
+  highlights:
+    - Development of a local security agent for Android.
+    - Maintenance and bugfixing for the iOS security agent.
+    - Advanced usage of Jetpack Compose, Kotlin Coroutines e AccessibilityService.
+    - Contributed to the CI/CD pipeline on GitHub Actions.
+- company: Synesthesia S.r.l.
+  position: Senior Software Engineer
+  start_date: 2018-10
+  end_date: 2022-11
+  location: Turin
+  highlights:
+    - Development of Android apps focusing on the state-of-the-art for the platform.
+    - Extensive usage of Jetpack Compose, Uniflow, Koin, Dagger/Hilt, Retrofit and other modern libraries.
+    - Implemented patterns such as MVVM, MVI, Unidirectional Data Flow, Inversion of Control, Repository pattern.
+    - Contributed to the development of back-ends and Android apps for major Olympic events.
+    - Advanced usage of C# on ASP.NET MVC and Core platforms.
+- company: e-Gate Mobile S.r.l.
+  position: Software Engineer
+  start_date: 2017-05
+  end_date: 2018-08
+  location: Turin
+  highlights:
+    - Lead Android developer.
+    - Android apps development focusing on Clean Architecture.
+    - Extensive usage of Reactive Streams (RxJava).
+    - Development of a proprietary indoor positional tracking, based on radio-frequency antennas and active tags.
+    - Back-end development on ASP.NET MVC platform.
+- company: UBIQ Studio S.n.c.
+  position: Software Engineer
+  start_date: 2015-02
+  end_date: 2017-04
+  location: Turin
+  highlights:
+    - Lead Android developer.
+    - Extensive usage of state-of-the-art libraries and patterns available at that time.
+    - Development of apps for Windows Phone.
+- company: Seac02 S.r.l.
+  position: Software Engineer
+  start_date: 2011-09
+  end_date: 2015-01
+  location: Turin
+  highlights:
+    - Mobile apps development for both Android and iOS.
+    - Development with Unity 3D.
+- company: Seac02 S.r.l.
+  position: Internship
+  start_date: 2011-04
+  end_date: 2011-08
+  location: Turin
+  highlights:
+    - Development of a web-app for generating 3D models of human bodies, UI made in OpenGL using WebGL, the final app is able to generate the model based on customizable parameters.
+- company: Polytechnic University of Turin
+  position: Internship
+  date: 2007-07
+  location: Turin
+  highlights:
+    - Analysis of GNU Radio, a library for software signal processing.
+    - Created a documentation and code examples with C and Python.
+- company: Polytechnic University of Turin
+  position: Internship
+  date: 2006-07
+  location: Turin
+  highlights:
+    - Translation to C code of a MatLab program simulating low-pass/high-pass signal filtering.
+    - UI implemented with FLTK library.

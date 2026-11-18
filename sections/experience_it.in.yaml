@@ -1,0 +1,80 @@
+- company: Synesthesia S.r.l.
+  position: Sviluppatore Software Senior
+  start_date: 2025-09
+  end_date: 2026-02
+  location: Torino
+  highlights:
+    - Contribuito allo sviluppo delle app Android dei principali eventi olimpici.
+- company: Ermes Cyber Security S.p.A.
+  position: Sviluppatore Software Senior
+  start_date: 2022-12
+  end_date: 2024-06
+  location: Torino
+  highlights:
+    - Sviluppo e ammodernamento agente di sicurezza Android.
+    - Manutenzione e bugfix per agente di sicurezza iOS.
+    - Approfondito utilizzo di Jetpack Compose, Kotlin Coroutines e AccessibilityService.
+    - Contribuito alla pipeline CI/CD su GitHub Actions.
+- company: Synesthesia S.r.l.
+  position: Sviluppatore Software Senior
+  start_date: 2018-10
+  end_date: 2022-11
+  location: Torino
+  highlights:
+    - Sviluppo applicazioni Android con attenzione allo stato dell'arte della piattaforma.
+    - Utilizzati Jetpack Compose, Uniflow, Koin, Dagger/Hilt, Retrofit ed altre moderne librerie.
+    - Impiegati pattern quali MVVM, MVI, Unidirectional Data Flow, Inversion of Control, Repository pattern.
+    - Contribuito allo sviluppo dei back-end e delle app Android dei principali eventi olimpici.
+    - Utilizzo avanzato di C# su piattaforma ASP.NET MVC e Core.
+- company: e-Gate Mobile S.r.l.
+  position: Sviluppatore Software
+  start_date: 2017-05
+  end_date: 2018-08
+  location: Torino
+  highlights:
+    - Responsabile sviluppo Android.
+    - Messa a punto della struttura delle app seguendo i concetti della Clean Architecture.
+    - Estensivo utilizzo di Reactive Streams (RxJava).
+    - Sviluppo di un sistema proprietario di positional tracking indoor, basato su antenne a radio frequenza e tag attivi.
+    - Sviluppo di back-end su piattaforma ASP.NET MVC.
+- company: UBIQ Studio S.n.c.
+  position: Sviluppatore Software
+  start_date: 2015-02
+  end_date: 2017-04
+  location: Torino
+  highlights:
+    - Responsabile sviluppo Android.
+    - Continua ricerca di librerie e pattern da impiegare nello sviluppo.
+    - Sviluppato app per Windows Phone.
+- company: Seac02 S.r.l.
+  position: Sviluppatore Software
+  start_date: 2011-09
+  end_date: 2015-01
+  location: Torino
+  highlights:
+    - Sviluppo di app Android.
+    - Sviluppo di app iOS.
+    - Sviluppo su piattaforma Unity.
+- company: Seac02 S.r.l.
+  position: Stage
+  start_date: 2011-04
+  end_date: 2011-08
+  location: Torino
+  highlights:
+    - Sviluppo di una applicazione OpenGL per la generazione di corpi umani tridimensionali.
+    - Il sistema è stato implementato su piattaforma web con l'utilizzo di WebGL.
+    - L'applicazione finale ha la capacità di variare il modello sulla base di parametri predeterminati.
+- company: Politecnico di Torino
+  position: Stage
+  date: 2007-07
+  location: Torino
+  highlights:
+    - Studio di GNU Radio, libreria Linux per l'elaborazione di segnali via software.
+    - Creazione di un esauriente documentazione e relativi esempi in codice C e Python.
+- company: Politecnico di Torino
+  position: Stage
+  date: 2006-07
+  location: Torino
+  highlights:
+    - Traduzione in codice C di un programma MatLab atto alla simulazione di filtraggio passa basso-alto di un segnale.
+    - Implementazione di interfaccia grafica per la visualizzazione dei risultati.
