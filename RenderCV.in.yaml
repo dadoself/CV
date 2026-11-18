@@ -48,13 +48,7 @@ cv:
     - network: GitHub
       username: dadoself
   custom_connections:
-  sections: !If
-    test: !Op
-      a: !Var lang
-      op: eq
-      b: it
-    then: !Include sections_it.in.yaml
-    else: !Include sections_en.in.yaml
+  sections: !Include sections.in.yaml
 design:
   theme: classic
   page:

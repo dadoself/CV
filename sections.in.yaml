@@ -1,0 +1,7 @@
+!If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: !Include sections_it.in.yaml
+  else: !Include sections_en.in.yaml
