@@ -2,14 +2,14 @@
   position: Sviluppatore Software Senior
   start_date: 2025-09
   end_date: 2026-02
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Contribuito allo sviluppo delle app Android dei principali eventi olimpici.
 - company: Ermes Cyber Security S.p.A.
   position: Sviluppatore Software Senior
   start_date: 2022-12
   end_date: 2024-06
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Sviluppo e ammodernamento agente di sicurezza Android.
     - Manutenzione e bugfix per agente di sicurezza iOS.
@@ -19,7 +19,7 @@
   position: Sviluppatore Software Senior
   start_date: 2018-10
   end_date: 2022-11
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Sviluppo applicazioni Android con attenzione allo stato dell'arte della piattaforma.
     - Utilizzati Jetpack Compose, Uniflow, Koin, Dagger/Hilt, Retrofit ed altre moderne librerie.
@@ -30,7 +30,7 @@
   position: Sviluppatore Software
   start_date: 2017-05
   end_date: 2018-08
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Responsabile sviluppo Android.
     - Messa a punto della struttura delle app seguendo i concetti della Clean Architecture.
@@ -41,7 +41,7 @@
   position: Sviluppatore Software
   start_date: 2015-02
   end_date: 2017-04
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Responsabile sviluppo Android.
     - Continua ricerca di librerie e pattern da impiegare nello sviluppo.
@@ -50,7 +50,7 @@
   position: Sviluppatore Software
   start_date: 2011-09
   end_date: 2015-01
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Sviluppo di app Android.
     - Sviluppo di app iOS.
@@ -59,7 +59,7 @@
   position: Stage
   start_date: 2011-04
   end_date: 2011-08
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Sviluppo di una applicazione OpenGL per la generazione di corpi umani tridimensionali.
     - Il sistema è stato implementato su piattaforma web con l'utilizzo di WebGL.
@@ -67,14 +67,14 @@
 - company: Politecnico di Torino
   position: Stage
   date: 2007-07
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Studio di GNU Radio, libreria Linux per l'elaborazione di segnali via software.
     - Creazione di un esauriente documentazione e relativi esempi in codice C e Python.
 - company: Politecnico di Torino
   position: Stage
   date: 2006-07
-  location: Torino
+  location: !Var location_turin
   highlights:
     - Traduzione in codice C di un programma MatLab atto alla simulazione di filtraggio passa basso-alto di un segnale.
     - Implementazione di interfaccia grafica per la visualizzazione dei risultati.

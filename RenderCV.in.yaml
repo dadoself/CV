@@ -30,11 +30,18 @@ headline_2: !If
     b: it
   then: Developer
   else: Engineer
+location_turin: !If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: Torino
+  else: Turin
 ---
 cv:
   name: Davide Bianco
   headline: !Format "{headline_1} {headline_2} · Low-Level and Functional Enthusiast"
-  location:
+  location: !Var location_turin
   email:
   photo:
   phone:
