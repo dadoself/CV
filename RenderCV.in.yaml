@@ -30,17 +30,14 @@ headline_2: !If
     b: it
   then: Developer
   else: Engineer
-location: null
-email: null
-phone: null
 ---
 cv:
   name: Davide Bianco
   headline: !Format "{headline_1} {headline_2} · Low-Level and Functional Enthusiast"
-  location: !Var location
-  email: !Var email
+  location:
+  email:
   photo:
-  phone: !Var phone
+  phone:
   website:
   social_networks:
     - network: LinkedIn
