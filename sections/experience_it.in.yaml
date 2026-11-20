@@ -35,7 +35,7 @@
     - Responsabile sviluppo Android.
     - Messa a punto della struttura delle app seguendo i concetti della Clean Architecture.
     - Estensivo utilizzo di Reactive Streams (RxJava).
-    - Sviluppo di un sistema proprietario di positional tracking indoor, basato su antenne a radio frequenza e tag attivi.
+    - Sviluppo di un sistema proprietario di posizionamento indoor, basato su antenne a radio frequenza e tag attivi.
     - Sviluppo di back-end su piattaforma ASP.NET MVC.
 - company: UBIQ Studio S.n.c.
   position: Sviluppatore Software
