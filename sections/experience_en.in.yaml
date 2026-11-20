@@ -13,7 +13,7 @@
   highlights:
     - Development of a local security agent for Android.
     - Maintenance and bugfixing for the iOS security agent.
-    - Advanced usage of Jetpack Compose, Kotlin Coroutines e AccessibilityService.
+    - Advanced usage of Jetpack Compose, Kotlin Coroutines and AccessibilityService.
     - Contributed to the CI/CD pipeline on GitHub Actions.
 - company: Synesthesia S.r.l.
   position: Senior Software Engineer
@@ -35,7 +35,7 @@
     - Lead Android developer.
     - Android apps development focusing on Clean Architecture.
     - Extensive usage of Reactive Streams (RxJava).
-    - Development of a proprietary indoor positional tracking, based on radio-frequency antennas and active tags.
+    - Development of a proprietary indoor positioning system, based on radio-frequency antennas and active tags.
     - Back-end development on ASP.NET MVC platform.
 - company: UBIQ Studio S.n.c.
   position: Software Engineer
