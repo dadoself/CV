@@ -37,6 +37,13 @@ location_turin: !If
     b: it
   then: Torino
   else: Turin
+phone_number_format: !If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: national
+  else: international
 ---
 cv:
   name: Davide Bianco
@@ -69,6 +76,9 @@ design:
       headline: true
     bold:
       headline: true
+  header:
+    connections:
+      phone_number_format: !Var phone_number_format
   templates:
     footer: '*“while (idea‑>is_not_good()) think(); write_code();”#linebreak()PAGE_NUMBER/TOTAL_PAGES*'
     education_entry:
