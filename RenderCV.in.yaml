@@ -16,20 +16,13 @@ accent_color: !If
     b: android
   then: rgb(61, 220, 132)
   else: rgb(0, 79, 144)
-headline_1: !If
+headline: !If
   test: !Op
     a: !Var platform
     op: eq
     b: android
-  then: Android
-  else: Software
-headline_2: !If
-  test: !Op
-    a: !Var lang
-    op: eq
-    b: it
-  then: Developer
-  else: Engineer
+  then: Senior Android Engineer · Native Development
+  else: Software Engineer · Systems & Low-Level Development
 location_turin: !If
   test: !Op
     a: !Var lang
@@ -47,7 +40,7 @@ phone_number_format: !If
 ---
 cv:
   name: Davide Bianco
-  headline: !Format "{headline_1} {headline_2} · Low-Level and Functional Enthusiast"
+  headline: !Var headline
   location: !Var location_turin
   email:
   photo:
