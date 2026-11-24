@@ -1,4 +1,4 @@
-Welcome to RenderCV: !Include sections/summary.in.yaml
+Profilo professionale: !Include sections/summary.in.yaml
 Formazione: !Include sections/education.in.yaml
 Competenze: !Include sections/skills.in.yaml
 Esperienza: !Include sections/experience.in.yaml

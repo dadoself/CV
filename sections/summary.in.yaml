@@ -1,4 +1,7 @@
-- RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-- Each section title is arbitrary.
-- You can choose any of the 9 entry types for each section.
-- Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
+!If
+  test: !Op
+    a: !Var lang
+    op: eq
+    b: it
+  then: !Include summary_it.in.yaml
+  else: !Include summary_en.in.yaml

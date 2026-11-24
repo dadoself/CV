@@ -1,0 +1,7 @@
+!If
+  test: !Op
+    a: !Var platform
+    op: eq
+    b: android
+  then: !Include summary_it_android.in.yaml
+  else: !Include summary_it_generic.in.yaml
