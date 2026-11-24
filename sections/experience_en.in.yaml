@@ -73,5 +73,5 @@
   date: 2006-07
   location: !Var location_turin
   highlights:
-    - Translation to C code of a MatLab program simulating low-pass/high-pass signal filtering.
+    - Translation to C code of a MATLAB program simulating low-pass/high-pass signal filtering.
     - UI implemented with FLTK library.

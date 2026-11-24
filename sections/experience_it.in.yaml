@@ -76,5 +76,5 @@
   date: 2006-07
   location: !Var location_turin
   highlights:
-    - Traduzione in codice C di un programma MatLab atto alla simulazione di filtraggio passa basso-alto di un segnale.
+    - Traduzione in codice C di un programma MATLAB atto alla simulazione di filtraggio passa basso-alto di un segnale.
     - Implementazione di interfaccia grafica per la visualizzazione dei risultati.
