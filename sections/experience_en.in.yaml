@@ -24,7 +24,7 @@
     - Development of Android apps focusing on the state-of-the-art for the platform.
     - Extensive usage of Jetpack Compose, Uniflow, Koin, Dagger/Hilt, Retrofit and other modern libraries.
     - Implemented patterns such as MVVM, MVI, Unidirectional Data Flow, Inversion of Control, Repository pattern.
-    - Contributed to the development of back-ends and Android apps for major Olympic events.
+    - Contributed to the development of backends and Android apps for major Olympic events.
     - Advanced usage of C# on ASP.NET MVC and Core platforms.
 - company: e-Gate Mobile S.r.l.
   position: Software Engineer
@@ -32,11 +32,13 @@
   end_date: 2018-08
   location: !Var location_turin
   highlights:
-    - Lead Android developer.
-    - Android apps development focusing on Clean Architecture.
-    - Extensive usage of Reactive Streams (RxJava).
-    - Development of a proprietary indoor positioning system, based on radio-frequency antennas and active tags.
-    - Back-end development on ASP.NET MVC platform.
+    - Led Android development, working with Clean Architecture and RxJava.
+    - Developed a proprietary indoor positioning system based on radio-frequency antennas and active tags.
+    - Backend development using ASP.NET MVC.
+    - Developed embedded C firmware for a timed medication dispenser, working with pointers and memory layout. Reorganized dynamically allocated data structures into contiguous memory.
+    - Developed a C++-based interactive digital signage kiosk integrating FFmpeg for audio/video decoding and playback, and OpenCV for real-time face recognition.
+    - Implemented a multithreaded architecture handling webcam capture, face recognition and media playback concurrently, managing synchronization between threads and coordinating the kiosk's behavior based on the presence of potential viewers.
+    - Applied RAII-oriented resource management practices in the C++ codebase.
 - company: UBIQ Studio S.n.c.
   position: Software Engineer
   start_date: 2015-02
@@ -66,8 +68,8 @@
   date: 2007-07
   location: !Var location_turin
   highlights:
-    - Analysis of GNU Radio, a library for software signal processing.
-    - Created a documentation and code examples with C and Python.
+    - Studied GNU Radio, a software-defined radio and signal processing framework.
+    - Developed C code examples for signal processing blocks and Python code to integrate and orchestrate the processing components.
 - company: Polytechnic University of Turin
   position: Internship
   date: 2006-07
