@@ -1,8 +1,7 @@
-- label: Programming languages
-  details: Kotlin, Java, C#, C/C++, Ruby, JavaScript, Rust (studying), Haskell (studying)
-- label: Technologies
-  details: Android, ASP.NET MVC/Core, OpenGL, Unity (basic), OpenCV (basic)
-- label: Tools
-  details: Git, SVN (basic), Arch Linux
-- label: Languages
-  details: Italian (native), English (intermediate, professional working proficiency)
+!If
+  test: !Op
+    a: !Var platform
+    op: eq
+    b: android
+  then: !Include skills_en_android.in.yaml
+  else: !Include skills_en_generic.in.yaml

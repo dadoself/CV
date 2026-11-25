@@ -1,8 +1,7 @@
-- label: Linguaggi
-  details: Kotlin, Java, C#, C/C++, Ruby, JavaScript, Rust (in studio), Haskell (in studio)
-- label: Tecnologie
-  details: Android, ASP.NET MVC/Core, OpenGL, Unity (base), OpenCV (base)
-- label: Tools
-  details: Git, SVN (base), Arch Linux
-- label: Lingue
-  details: Italiano (madrelingua), Inglese (intermedio, utilizzato in contesti professionali)
+!If
+  test: !Op
+    a: !Var platform
+    op: eq
+    b: android
+  then: !Include skills_it_android.in.yaml
+  else: !Include skills_it_generic.in.yaml
