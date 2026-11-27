@@ -21,3 +21,4 @@ jobs:
         python-version: '3.14'
     - run: pip install emrichen
     - run: pip install "rendercv[full]"
+    - uses: extractions/setup-just@v4
