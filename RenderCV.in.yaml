@@ -81,18 +81,18 @@ locale:
 settings:
   current_date: today
   render_command:
-    output_folder: ../rendercv_output
+    output_folder: rendercv_output
     design:
     locale:
-    typst_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}_{platform}.typ"
-    pdf_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}_{platform}.pdf"
-    markdown_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}_{platform}.md"
-    html_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}_{platform}.html"
-    png_path: !Format "OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV_{lang}_{platform}.png"
+    typst_path: !Format "OUTPUT_FOLDER/{platform}/{lang}/NAME_IN_SNAKE_CASE_CV.typ"
+    pdf_path: !Format "OUTPUT_FOLDER/{platform}/{lang}/NAME_IN_SNAKE_CASE_CV_{lang}.pdf"
+    markdown_path: !Format "OUTPUT_FOLDER/{platform}/{lang}/NAME_IN_SNAKE_CASE_CV.md"
+    html_path: !Format "OUTPUT_FOLDER/{platform}/{lang}/NAME_IN_SNAKE_CASE_CV.html"
+    png_path: !Format "OUTPUT_FOLDER/{platform}/{lang}/NAME_IN_SNAKE_CASE_CV.png"
     dont_generate_markdown: false
     dont_generate_html: false
     dont_generate_typst: false
     dont_generate_pdf: false
-    dont_generate_png: false
+    dont_generate_png: true
   bold_keywords: []
   pdf_title: NAME - CV

@@ -22,4 +22,6 @@ jobs:
     - run: pip install emrichen
     - run: pip install "rendercv[full]"
     - uses: extractions/setup-just@v4
-    - run: just renderall
+    - run: just publish-all
+    - run: zip --recurse-paths the_output/emrichen_output.zip emrichen_output/
+    - run: zip --recurse-paths the_output/rendercv_output.zip rendercv_output/
