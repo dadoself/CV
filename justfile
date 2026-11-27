@@ -1,3 +1,7 @@
+[default]
+list:
+    just --list
+
 [arg('LANG', pattern='en|it')]
 [arg('PLATFORM', pattern='generic|android')]
 emrichen LANG PLATFORM:
@@ -6,3 +10,5 @@ emrichen LANG PLATFORM:
 
 rendercv LANG PLATFORM: (emrichen LANG PLATFORM)
     rendercv render "emrichen_output/RenderCV_{{LANG}}_{{PLATFORM}}.yaml"
+
+renderall: (rendercv 'en' 'generic') (rendercv 'en' 'android') (rendercv 'it' 'generic') (rendercv 'it' 'android')
